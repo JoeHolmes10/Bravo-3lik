@@ -75,6 +75,12 @@ form {
     z-index: 1;
 }
 
+@media only screen and (max-width:30em) {
+    form{
+        left: 45%;
+    }
+}
+
 input {
     border-radius: 50px;
     -webkit-border-radius: 50px;
